@@ -8,8 +8,10 @@
 
 /* header */
 .main_header{
-    width: 100%;
-    padding: 15px 80px ;
+    width: 90%;
+    margin: auto;
+    height: 50px;
+    /* padding: 15px 80px ; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -55,18 +57,24 @@
 
 /* section 1 */
 .section1{
-    width: 100%;
+    /* width: 100%; */
     height: 550px;
-    margin: auto;
-    padding: 100px 130px;
-    
-}
-.img_container{
+    /* margin: auto;
+    padding: 100px 130px; */
     background-image: url("/images/cover.png");
     background-size: cover;
+    background-repeat: no-repeat;
+    padding: 101px 0 0 8%;
     
 
+    
 }
+/* .img_container{ */
+    /* background-image: url("/images/cover.png");
+    background-size: cover; */
+    
+
+/* } */
 .section1_header{
     color: #FFF;
     font-family: Kanit;
@@ -76,7 +84,7 @@
     line-height: normal;
 }
 .section1_p{
-    width: 40%;
+    width: 532px;
     color: #FFF;
     font-family: Kanit;
     font-size: 16px;
@@ -89,7 +97,7 @@
 
 /* section 2 */
 .main_section2{
-    width: 90%;
+    width: 84%;
     margin: 130px auto;
     display: flex;
     flex-direction: column;
@@ -103,18 +111,26 @@
     line-height: normal;
 }
 .div_cards{
-    width: 100%;
     display: flex;
     justify-content: space-between;
     margin-top: 34px;
+    
 }
 .section_card{
-    width: 30%;
+    width: 32%;
     display: flex;
     flex-direction: column;
+    border: 1px solid black;
+    
 }
 .card_img{
+    width: 100%;
     height: 190px;
+    object-fit: cover;
+}
+.card_text_div{
+    width: 90%;
+    margin: 18px auto 28px;
 }
 .card_header{
     margin-top: 18px;
@@ -134,10 +150,11 @@
     line-height: normal;
 }
 .icon_txet{
-    margin-top: 28px;
+    width: 90%;
+    margin: 0 auto 15px;
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 11px;
     flex-wrap: nowrap;
 }
 
