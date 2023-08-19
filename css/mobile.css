@@ -1,0 +1,34 @@
+@media (max-width: 450px){
+/*header */
+    .main_header{
+        padding: 15px 10px;
+    }
+    .main_nav{
+        display: none;
+    }
+    .fa-bars{
+        display: block;
+    }
+/*header */
+/* section1 */
+    .section1{
+        padding: 10px 15px;
+    }
+
+/* section1 */
+/* section 2 */
+    .main_section2{
+        flex-wrap: wrap;
+    }
+    .travel_card{
+        display: block;
+    }
+
+/* section 2 */
+/* section 3 */
+    .section3{
+        flex-wrap: wrap;
+    }
+/* section 3 */
+
+}

@@ -1,0 +1,43 @@
+@media (max-width: 1100px){
+/* header */
+    .main_header{
+        padding: 15px 10px;
+    }
+    .fa-bars{
+        display: none;
+    }
+/* header */
+/* section1 */
+    .section1{
+        height: 400px;
+    }
+    .section1_p{
+        width: 70%;
+    }
+/* section1 */
+
+/* section 2 */
+    .travel_card{
+        display: none;
+    }
+    .section_card{
+        width: 60%;
+    }
+    .div_cards{
+        gap: 18px;
+    }
+ /* section 2 */
+
+/* section 3 */
+    .section3_pic_div{
+        width: 70%;
+        flex-wrap: wrap;
+    }
+    .imgs2_container{
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+/* section 3 */
+
+}
